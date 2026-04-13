@@ -16,14 +16,14 @@
    nano malicious_ips.txt
 ```
 
-3. Add test IPs (include the IP address of the attacker machine)
+2. Add test IPs (include the IP address of the attacker machine)
 
-4. Run script:
+3. Run script:
 ```
    sudo python3 threat_intel_detector.py
 ```
 
-6. Generate traffic from attacker
+4. Generate traffic from attacker
 ```
 curl http://<IP_SERVer>/login
 ```
